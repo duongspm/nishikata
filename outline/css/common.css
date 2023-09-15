@@ -1,0 +1,141 @@
+@charset "utf-8";
+/***********************************************/
+/* HTML tag styles                             */
+/***********************************************/
+body{
+margin:0;
+padding:0;
+text-align:center}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fildset,textarea,input,p,blockquote,table,th,td,address{
+margin:0;
+padding:0;
+color:#333;
+font-style:normal;
+font:small/140% verdana, "ヒラギノ丸ゴ Pro W4",ヒラギノ丸ゴ Pro W4, Hiragino Maru Gothic Pro, "メイリオ", Meiryo, "ＭＳ Ｐゴシック",  Osaka, sans-serif}
+*html body div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fildset,textarea,input,p,blockquote,table,th,td,address{
+font:x-small/160% "メイリオ", Meiryo, verdana, "ヒラギノ丸ゴ Pro W4",ヒラギノ丸ゴ Pro W4, Hiragino Maru Gothic Pro, "ＭＳ Ｐゴシック", Osaka, sans-serif}
+*+html body div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fildset,textarea,input,p,blockquote,table,th,td,address{
+font:small/140% verdana "メイリオ", Meiryo, verdana, "ヒラギノ丸ゴ Pro W4",ヒラギノ丸ゴ Pro W4, Hiragino Maru Gothic Pro, "ＭＳ Ｐゴシック", Osaka, sans-serif}
+table{
+border-collapse:collapse;
+border-spacing:0;}
+caption,th{text-align:left}
+td,th{vertical-align: top;text-align:left;}
+fieldset,img,abbr{border:none}
+li{list-style-type:none}
+hr{display:none}
+
+a,a:link{color:#666;text-decoration:none}
+a:visited{color:#5a2a30}
+a:hover{color:#666;text-decoration:underline}
+strong{font-weight:bold}
+
+/*---ForFireFox---*/
+a:focus{outline:none;}
+
+/**/
+table.outline{
+	/*border-top:solid 1px #41414D;*/
+	border-left:solid 1px #999;
+	margin:0px auto;
+	width:680px;
+	background:#fff;
+}
+table.outline th{
+	border-right:solid 1px #999;
+	border-bottom:solid 1px #999;
+	padding:2px 8px 2px 8px;
+	text-align:right;
+	font-size:11px;
+}
+table.outline td{
+	border-right:solid 1px #999;
+	border-bottom:solid 1px #999;
+	padding:2px 0px 2px 5px;
+	font-size:11px;
+}
+.outline li,.outline dd,.outline dt,.outline p,{color:#333;font-size:11px;}
+
+#headBox{background:url(../img/bgHead2.gif) repeat-x top left #fff;border-bottom:double 3px #41414d;margin:0px auto;padding:20px 0px 0px 0px;}
+#headBox h1{
+	font-size:20px;line-height:21px;
+	color:#333;
+	width:845px;
+	text-align:left;
+	margin:0px auto;padding:0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+#headBox h1 span{font-size:13px;font-weight:normal;float:right;}
+
+#entryBox{background:#fff;color:#333;margin:0px auto;}
+#entryMore{background:#fff;color:#333;margin:0px auto 10px auto;width:680px;text-align:left;}
+#footBox{border-top:double 3px #41414d;margin:0px auto;padding:8px 8px 15px 8px;}
+#footBox address{color:#666;font-size:10px;}
+
+/*__+080401__*/
+.outline td table,
+.outline td table tr,
+.outline td table th,
+.outline td table td{
+	border:0px;
+}
+.outline td table td{
+	padding:2px 3px;
+}
+.outline td table td.min{
+	padding:2px 0px 2px 1em;
+}
+/*__/+080401__*/
+
+/*__+090601__
+   1. dl {  
+ border:1px solid #999;  
+ width:390px;  
+}  
+dt {  
+ float:left;  
+ width:100px;  
+ padding:5px 0 5px 10px;  
+ clear:both;  
+ font-weight:bold;  
+}  
+dd {  
+ width:260px;  
+ margin-left:100px;  
+ padding:5px 5px 5px 10px;  
+ border-left:1px solid #999;  
+}  
+__+090601__*/
+
+/*__+090605__*/
+dl.outline{
+/*	border-top:solid 1px #999;*/
+	border-right:solid 1px #999;
+	border-left:solid 1px #999;
+	margin:0px auto;
+	text-align:left;
+	display:block;
+	width:860px;
+	background:#fff;
+	clear:both;
+}
+dl.outline dt{
+	margin:0px auto 0px 0px;
+	padding:10px 8px 0px 8px;
+	text-align:right;
+	display:inline-block;
+	width:282px;
+	font-size:13px;
+	height:28px;
+	font-weight: bold;
+}
+dl.outline dd{
+	border-bottom:solid 1px #999;
+	padding:0px 0px 8px 308px;
+	margin:-28px 0px 0px 0px;
+	font-size:13px;
+	text-align:left;
+	display:block;
+}
+/*__/+090605__*/

@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+/* Location02 */
+.bunkyo-tit {
+    font-size: 22px;
+    line-height: 2;
+    color: #435c6d;
+    padding-left: 0.7em;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.bunkyo-tit:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.3em;
+    bottom: 0.25em;
+    width: 0.34em;
+    background: #435c6d;
+}
+
+.bunkyo-txt {
+    font-size: 14px;
+    line-height: 2;
+    color: #435c6d;
+    letter-spacing: -0.05em;
+    margin-bottom: 12px;
+}
+
+.bunkyo-cap {
+    font-size: 10px;
+    line-height: 1.5;
+    padding-top: 20px;
+    margin-left: 1em;
+    text-indent: -1em;
+}
+
+
+.box-plan .plan-cont {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px;
+    background-color: #EAE6DE;
+}
+
+.box-plan .plan-cont .box-txt {
+    width: 45%;
+}
+
+.box-plan .plan-cont .box-img {
+    width: 45%;
+}
+
+.box-plan .plan-cont h2 {
+    color: #897A53;
+    font-size: 35px;
+}
+
+.box-plan .plan-cont h2 span {
+    font-size: 16px;
+}
+
+.box-plan .plan-cont .box-txt p {
+    padding-top: 10px;
+    color: #58595B;
+    font-size: 18px;
+    position: relative;
+    line-height: 2;
+}
+
+.box-plan .plan-cont .box-txt p::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #897A53;
+    content: '';
+
+}
+
+@media (min-width: 769px) {
+    .bunkyo {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 90px;
+    }
+
+    .bunkyo-item {
+        width: 48%;
+        margin-bottom: 40px;
+    }
+
+    .bunkyo-item:nth-of-type(2n+1) {
+        margin-right: 4%;
+    }
+
+    /* .bunkyo-item:nth-of-type(2) .bunkyo-txt{min-height: 45px;}    */
+}
+
+@media (max-width: 768px) {
+    .location02 .m-title {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .bunkyo {
+        padding-top: 50px;
+    }
+
+    .bunkyo-item:not(:last-of-type) {
+        margin-bottom: 40px;
+    }
+
+    .bunkyo-img {
+        text-align: center;
+    }
+
+
+    .box-plan .plan-cont .box-txt,
+    .box-plan .plan-cont .box-img {
+        width: 100%;
+    }
+
+    .box-plan .plan-cont {
+        margin-top: 16px;
+    }
+
+    .box-plan .plan-cont .box-img {
+        text-align: center;
+        margin-top: 16px;
+    }
+
+    .box-plan .plan-cont h2 {
+        font-size: 28px;
+    }
+
+    .bunkyo-cap {
+        text-align: center;
+    }
+
+    .box-plan .plan-cont .box-txt p {
+        font-size: 14px;
+    }
+}

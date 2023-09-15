@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* Access */
+.access-tit{color: #9f845b; font-size: 36px; font-weight: 500;  letter-spacing: 0.1em; margin: 0 0 40px; text-align: center;}
+.access-tit2{color: #9f845b; font-size: 24px; line-height: 1.3; margin: 0 0 30px; text-align: center;}
+
+.station{padding: 70px 0 0 0;}
+.station-box{display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center; padding-top: 70px; max-width: 1100px; margin: 0 auto;}
+.station-txt{width: 30.28%;margin-right: 20px;}
+.station-txt-item{
+    padding-bottom: 15px;
+}
+
+.station-txt-item:last-of-type{
+    border-bottom: 1px solid #999999;
+}
+.station-img{width: 66.64%;}
+
+.station-list-img{
+    margin: 130px auto 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+
+}
+.station-list-img li{
+    width: 33.3334%;
+}
+.photo{
+    position: relative;
+}
+.photo__capIn{
+    font-size: 11px;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    line-height: 1;
+    color: #ffffff;
+    text-shadow: black 1px 1px 10px, black -1px 1px 10px, black 1px -1px 10px, black -1px -1px 10px;
+}
+.capRight{
+    left: unset !important;
+    right: 10px;
+}
+.station-list-img li img{
+    width: 100%;
+}
+.station__line{
+    margin: 130px auto;
+    max-width: 1100px;
+}
+.station-line__item:not(:last-of-type){
+    margin-bottom: 60px;
+}
+.text--indent{
+    padding-left: 1em;
+    text-indent: -1em;
+    font-size: 11px;
+    font-weight: 500;
+}
+.position{background: #000; color: #fff;}
+.position-item{max-width: 1285px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center;}
+.position-img{width: 50%;}
+.position-inner{width: 50%;}
+.position-txt{padding: 0 5%;}
+.position-inner.right{text-align: right;}
+
+.access-note{padding: 20px 0 120px 0; max-width: 1285px; font-size: 12px;}
+.access-note li{text-indent: -1em; margin-left: 1em;}
+.access-cap{font-size: 11px;}
+.access-box{margin: 0 0 60px;}
+.access-img{width: 21.56%; position: relative;}
+.access-img figcaption{font-size: 10px; position: absolute; bottom: 5px; left: 5px; color: #fff; line-height: 1;}
+
+.airport-box{display: flex; justify-content: space-between; flex-wrap: wrap; align-items: flex-start;}
+.airport-txt{width: 39%;}
+
+.taxi-box{padding-bottom: 150px; max-width: 900px;margin: 0 auto; display: flex; justify-content: space-between; flex-wrap: wrap; align-items: flex-start;}
+.taxi-cont{width: 76.67%;}
+.taxi-list{display: flex; justify-content: space-between; flex-wrap: wrap;}
+.taxi-list li{width: 23.334%;}
+.taxi-cap{font-size: 10px; padding: 14px 0 0 0;}
+
+.walk{background: #dee8ed; padding: 15px; display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap;}
+.walk-inner{width: 58%;}
+.walk-img{width: 40%; display: flex; justify-content: space-between;}
+.walk-img figure{width: 49%; position: relative;}
+.walk-img figcaption{font-size: 10px; position: absolute; bottom: 5px; right: 5px; color: #fff; line-height: 1;}
+
+@media only screen and (max-width: 768px) {
+    .station-list-img{
+        flex-direction: column;
+        margin: 50px auto;
+    }
+    .station-list-img li{
+        width: 100%;
+    }
+    .station__line{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0 60px;
+    }
+    .station-line__item:not(:last-of-type){
+        margin-bottom: 0;
+        margin-right: 5px;
+    }
+    .taxi-box{
+        padding-bottom: 60px;
+    }
+    .access-tit{font-size: 24px; margin: 0 0 20px;}
+    
+    .station-box{
+        padding-top: 20px;
+    }
+    .station{padding: 30px 15px 0;}
+    .station-txt{width: 100%; text-align: center; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between;}
+    .station-txt-item{width: 48%;}
+    .station-txt-item img{
+        width: 100%;
+    }
+    .station-txt-item:nth-child(4){
+        border-bottom: 1px solid #999999;
+    }
+    .station-img{width: 100%; text-align: center; order: -1; margin-bottom: 40px;}
+    
+    .position-inner{width: 100%; text-align: center !important;}
+    .position-img{width: 100%; order: -1;}
+    .position-txt{padding: 60px 0;}
+    
+    .access-note{font-size: 12px; padding: 10px 0 60px;}
+    .access-box{margin: 0 auto 40px;}
+    .access-tit2{font-size: 18px; margin-bottom: 20px;}
+    .access-img{width: 100%; text-align: center; margin: 0 0 20px;}
+    .access-img img{width: 100%;}    
+    .airport-txt{width: 100%; text-align: center; margin: 0 0 20px;}
+    .airport-txt:last-of-type{margin: 0;}
+    
+    .taxi-cont{width: 100%;}
+    .taxi-list li{width: 48%; text-align: center; margin: 0 0 min(5vw, 40px);}
+    
+    .walk-inner{width: 100%; margin-bottom: 15px;}
+    .walk-img{width: 100%;}
+}
+@media only screen and (max-width: 500px) {
+    .station-txt{
+        align-items: center;
+        justify-content: center;
+    }
+    .station-txt-item{
+        width: fit-content;
+    }
+    .station-txt-item:nth-child(4){
+        border-bottom: none;
+    }
+}

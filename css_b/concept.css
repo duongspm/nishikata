@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* Concept */
+#top{background: url("../images/concept/bg.png") no-repeat top 150px left/44%;}
+#home{margin-top: 150px;position: relative;}
+#home .caption{position: absolute;bottom: 0;left: 0;}
+.home-content{ height: 27vw;padding-top: 45%;padding-left: 20%;}
+.home-text{vertical-align: middle;
+    /* text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 5px #fff, 0 0 6px #fff, 0 0 7px #fff, 0 0 8px #fff, 0 0 9px #fff, 0 0 10px #fff, 0 0 11px #fff, 0 0 12px #fff, 0 0 13px #fff; */
+}
+
+.home-text h2, .home-text h1{margin: 0; padding: 0;}
+.home-text h3 ,.home-text p{margin-bottom: 0;}
+/* #home .caption{padding-top: 40px;} */
+@media (max-width: 2400px){
+.home-content{ padding-top: 30%;padding-left: 28%;}
+
+}
+@media (max-width: 1600px){
+    #home .caption{bottom: 25%;}
+
+}
+@media (max-width: 1400px) and (min-width: 769px) {
+    #top{background-size: 58vw auto;}
+    .home-content{height: 35vw; min-height: 300px;}
+    #home .caption{bottom: 35%;}
+.home-content{ padding-top: 50%;padding-left: 25%;}
+
+
+}
+@media (max-width: 1280px){
+    #home .caption{bottom: 38%;}
+}
+.position.con-2{
+    display: block;
+    position: relative;
+    padding-bottom: 60px;
+}
+@media (max-width: 768px) {
+    #top{background: url("../images/concept/bg.png") no-repeat top 175px left/94% auto;}
+    #home{margin-top: 250px;}
+    .home-content{height: 50vw;}
+    .home-text h2{margin-top: 34vw;}
+    #home .container{padding: 0;}
+    #home .home-text h3,  #home .home-text p{padding: 15px;padding-bottom:0;}
+    #home .caption{right: 0;}
+}
+
+
+.position{padding: 0px 0; 
+    display: flex; flex-wrap: wrap; justify-content: space-between;}
+    .position.con-2{
+        display: block;
+        position: relative;
+        
+    }
+    .diagram_flat-img.con-2{
+        text-align: right;
+        position: relative;
+        z-index: -1;
+    }
+    .position.con-2  .madiagram_flatp-inner{
+        position: absolute;
+        top: 5%;
+    }
+    .diagram_flat-img.con-2 figcaption{position: absolute;right: 3vw;bottom: 3vw;}
+p.caption{padding-top: 5px;}
+
+.history{margin-bottom: 80px; display: flex; flex-wrap: wrap; justify-content: space-between;align-items: center;}
+.home-text .m-title{
+    font-size: 48px;
+    color: #586e8c;
+    text-align: left;
+}
+.m-desc.text-left{text-align: left;}
+.concept .m-title2{
+    color: #586e8c;
+    font-size: 30px;
+
+}
+.position-inner .m-desc{
+    font-size: 16px;
+}
+.concept .position .position-img{position: relative;}
+.concept .position .position-img figcaption{position: absolute; right: 0;bottom: 0;}
+.history .m-desc{
+    font-size: 16px;
+}
+.history_zezo{max-width: 760px;margin: 60px auto 60px;}
+.m-desc.f-20{font-size: 20px;}
+.m-desc.f-18{font-size: 18px;}
+
+
+@media (min-width: 993px) {
+    
+    .position-img{width: 44.3%;}
+    .position-inner{width: 41.6%; margin-top: 40px;}
+    
+    .history01 .history-img{width: 48.9%; }
+    .history01 .history-inner{width: 49.4%; padding-left: 6vw;}
+
+    .history02 .history-img{width: 48.9%;}
+    .history02 .history-inner{width: 49%;}
+
+    .history03 .history-img{width: 49%;}
+    .history03 .history-inner{width: 48.9%;padding-left: 3.5vw;}
+}
+
+@media (max-width: 992px) {
+    .m-desc.is-left br{display: none;}
+    .position.con-2  .madiagram_flatp-inner{
+        position: relative;
+        top: unset;
+    }
+    .home-content{padding-top: 60%;padding-left: 0;}
+    .position-img{width: 100%; text-align: center;}
+    .position-inner{width: 100%; margin: 0 0 20px; order: -1;}
+    #home .caption{bottom: 55%;}
+    
+    .history-img{width: 100%; text-align: center;}
+    .history-inner{width: 100%; order: -1; margin-bottom: 20px;}
+}
+
+@media (max-width: 768px) {
+    .position{padding: 70px 0 50px;}
+    .history{margin-bottom: 50px;}
+    .history03{margin-bottom: 0;}
+    .home-text .m-title{font-size: 28px;}
+    .concept .m-title2{font-size: 20px;}
+    .position.con-2{
+        padding-top: 20px;
+    }
+    #home .caption{bottom:40%;}
+    .m-desc.f-20{font-size: 16px;}
+    .history img{width: 100%;}
+
+
+}
+@media (max-width: 480px) {
+    #home .caption{bottom: 65%;}
+    .home-content{padding-top: 50%;}
+    .home-text .m-title{font-size: 24px;}
+
+}

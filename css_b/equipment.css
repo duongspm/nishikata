@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+/* 
+--------------------------------------------------*/
+.v_pc { display:block; }
+.v_pt { display:block; }
+.v_sp { display:none; }
+.v_ts { display:none; }
+.v_ts_under { display:none; }
+
+#container{
+	padding: 60px 0;
+    margin: 0 auto;
+	width: 100%;
+	max-width: 1100px;
+}
+
+#equipment{
+    padding: 0px;
+    margin: 0 auto;
+	width: 100%;
+	max-width: 1100px;
+}
+
+#equipment #sec1{
+	line-height: 0px;
+	margin-bottom: 1%;
+}
+#equipment #sec1 .leftCont{
+	width: 53.7%;
+	float: left;
+}
+#equipment #sec1 .leftCont p{
+	line-height: 0px;
+}
+#equipment #sec1 .leftCont p:first-child{
+	margin-bottom: 0.5%;
+}
+#equipment #sec1 .rightCont{
+	width: 44.55%;
+	float: right;
+}
+
+#equipment #sec2{
+	line-height: 0px;
+	margin-bottom: 1%;
+}
+#equipment #sec2 .leftCont{
+	width: 53.7%;
+	float: left;
+}
+#equipment #sec2 .rightCont{
+	width: 44.55%;
+	float: right;
+}
+
+
+#equipment #sec3{
+	
+}
+#equipment #sec3 li{
+	height: 300px;
+	background: #000;
+}
+#equipment #sec3 li.c3{
+	width: 31.85%;
+	float: left;
+	margin: 0px 2.225% 2.225% 0px;
+}
+#equipment #sec3 li.c5{
+	width: 18.6%;
+	float: left;
+	margin-right: 1.75%;
+}
+#equipment #sec3 li:nth-child(3){
+	margin-right: 0px;
+}
+#equipment #sec3 li:last-child{
+	margin-right: 0px;
+}
+
+
+/* pc
+------------------------------------*/
+@media all and (max-width: 1100px) {
+
+
+
+}
+
+/* tb
+------------------------------------*/
+@media all and (max-width: 780px) {
+.v_pc { display:none !important; }
+	.v_pt { display:block; }
+	.v_sp { display:none; }
+	.v_ts { display:none; }
+	.v_ts_under { display:block; }
+
+
+}
+
+/* sp
+------------------------------------*/
+@media all and (max-width: 500px) {
+	
+	.v_pc { display:none; }
+	.v_pt { display:none; }
+	.v_sp { display:block; }
+	.v_ts { display:none; }
+	.v_ts_under { display:block; }
+	
+	
+	#equipment{
+		padding: 0px;
+	}
+	
+	.leftCont{
+		width: auto!important;
+		float: none!important;
+		margin-bottom: 0.8%;
+	}
+	.rightCont{
+		width: auto!important;
+		float: none!important;
+	}
+	
+	#equipment #sec3 li{
+		height: 120px;
+	}
+	
+	#equipment #sec3 li.c3,
+	#equipment #sec3 li.c5{
+		width: 49%;
+		margin: 0px 2% 0.8% 0px;
+	}
+	#equipment #sec3 li:nth-child(even){
+		margin-right: 0px;
+	}
+
+}

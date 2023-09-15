@@ -1,0 +1,302 @@
+@charset "utf-8";
+
+/* Design */
+#design02 h2 {
+	font-size: 28px;
+	line-height: 1.6;
+	margin-bottom: 10px;
+	/* font-weight: bold; */
+}
+
+#design02 .commonTxt {
+	font-size: 17px;
+	line-height: 1.9;
+}
+
+#design02 {
+	max-width: 1000px;
+	width: calc(100% - 30px);
+	margin: 0 auto;
+}
+
+.box {
+	padding: 60px 0;
+}
+
+.box .container figure {
+	text-align: center;
+}
+
+.box .container figure figcaption {
+	font-size: 10px;
+	text-align: right;
+	margin-top: 5px;
+}
+
+.box .container .commonTxt {
+	margin-bottom: 20px;
+}
+
+.boxTitH4 {
+	color: #6e7a59;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #6e7a59;
+	font-weight: bold;
+}
+
+.boxTitH4 span:nth-of-type(1) {
+	font-size: 28px;
+}
+
+.boxTitH4 span:nth-of-type(2) {
+	font-size: 20px;
+}
+
+.boxTitH5 {
+	font-size: 24px;
+	color: #6e7a59;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+#box2 {
+	padding-top: 0 !important;
+}
+
+#box3 {
+	padding: 0;
+}
+
+#box3 .container {
+	background: #f5efcc;
+	padding: 50px;
+}
+
+#box4 {
+	padding: 60px 0 0;
+}
+
+#box4 .commonTxt:nth-of-type(1) {
+	margin-bottom: 40px;
+}
+
+#box4 .listImg {
+	max-width: 840px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#box4 .listImg li:nth-of-type(1) {
+	width: 37.27%
+}
+
+#box4 .listImg li:nth-of-type(2) {
+	width: 57.15%
+}
+
+#box5 {
+	padding: 60px 0 100px;
+}
+
+#box5 .commonTxt:nth-of-type(1) {
+	margin-bottom: 40px;
+}
+
+#box5 .listImg {
+	max-width: 840px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#box5 .listImg li {
+	width: 19%;
+	margin-bottom: 1.25%;
+}
+
+#box5 .listImg li figure {
+	position: relative;
+}
+
+#box5 .listImg li figure figcaption {
+	position: absolute;
+	color: #fff;
+	right: 5px;
+	bottom: 5px;
+}
+
+.botCap {
+	font-size: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+	#design02 h2 {
+		font-size: 22px;
+	}
+
+	#design02 .commonTxt {
+		font-size: 16px;
+		text-align: left;
+	}
+
+	#design02 .commonTxt br {
+		display: none;
+	}
+
+	.boxTitH4 span:nth-of-type(1) {
+		font-size: 24px;
+	}
+
+	.boxTitH4 span:nth-of-type(2) {
+		font-size: 16px;
+		display: block;
+	}
+
+	.boxTitH5 {
+		font-size: 20px;
+	}
+
+	#box3 .container {
+		padding: 30px;
+	}
+
+	#box5 {
+		padding: 60px 0 80px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	#box5 .listImg li {
+		width: 48%;
+		margin-bottom: 4%;
+	}
+}
+
+.scene-box .kumiko {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+
+.scene-box .kumiko li:last-child {
+	width: 46%;
+	margin-left: 2%;
+}
+
+.scene-box .kumiko li p {
+	text-align: right;
+}
+
+.box-4 {
+	text-align: center;
+}
+
+#box2 .box-info {
+	text-align: center;
+	margin-top: 45px;
+}
+
+#box2 .box-info h2 {
+	color: #6e7a59;
+}
+
+#box2 .box-info p {
+	font-size: 18px;
+}
+
+.scene-box h4.m-title2 {
+	font-size: 28px;
+}
+
+.box-list .list-txt li {
+	margin-bottom: 45px;
+}
+
+.box-list .list-txt h3.tit {
+	font-size: 28px;
+	color: #6e7a59;
+	margin-bottom: 10px;
+}
+
+.box-list .list-txt p {
+	font-size: 18px;
+}
+
+.box-4.car {
+	margin: 50px 0;
+	padding: 35px 0 35px 35px;
+	border: 2px solid #586E8C;
+}
+
+.box-4.car h3 {
+	text-align: left;
+	margin-bottom: 60px;
+	color: #6e7a59;
+	font-size: 28px;
+}
+
+.m-title2 {
+	font-weight: normal;
+}
+
+@media (max-width:768px) {
+	.scene-box .kumiko li:last-child img {
+		height: 174px;
+	}
+
+	.box-list .list-txt p,
+	#box2 .box-info p {
+		font-size: 16px;
+	}
+
+	.box-4.car h3,
+	.box-list .list-txt h3.tit,
+	.scene-box h4.m-title2 {
+		font-size: 22px;
+	}
+
+	.box-4.car {
+		padding: 16px;
+	}
+}
+
+@media (max-width:576px) {
+	.scene-box .kumiko li:last-child {
+		width: 100%;
+		margin-top: 16px;
+	}
+
+	.box-list .list-txt p,
+	#box2 .box-info p {
+		font-size: 14px;
+	}
+
+	.box-4.car h3,
+	.box-list .list-txt h3.tit,
+	.scene-box h4.m-title2 {
+		font-size: 18px;
+	}
+
+	.box {
+		padding-bottom: 20px;
+	}
+
+	.scene-box .kumiko {
+		margin-bottom: 24px;
+	}
+
+	.box-4.car {
+		margin-top: 24px;
+		margin-bottom: 24px;
+	}
+
+
+}

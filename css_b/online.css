@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* Online */
+.gothic{font-family: "Meiryo","メイリオ","Hiragino Kaku Gothic Pro W3", "ヒラギノ角ゴ Pro W3",Arial,Helvetica,"MS PGothic","MS Pゴシック",Osaka,sans-serif;}
+
+.mv{position: relative;}
+.mv h1{font-size: 32px; letter-spacing: 0.05em; line-height: 1.3; text-align: center; color: #fff; position: absolute; top: 50%; left: 0; width: 100%; 
+transform: translateY(-50%); -webkit-transform: translateY(-50%);
+text-shadow: 0 0 1px rgba(0,0,0,.4), 0 0 2px rgba(0,0,0,.4), 0 0 3px rgba(0,0,0,.4), 0 0 4px rgba(0,0,0,.4), 0 0 5px rgba(0,0,0,.4), 0 0 6px rgba(0,0,0,.4), 0 0 7px rgba(0,0,0,.4), 0 0 8px rgba(0,0,0,.4), 0 0 9px rgba(0,0,0,.4), 0 0 10px rgba(0,0,0,.4);}
+
+#online{max-width: 1100px; width: calc(100% - 30px); margin: 0 auto; font-size: 16px; line-height: 1.7; padding: 70px 0 140px; font-family: 'Noto Serif JP';}
+#online h2{font-size: 30px; line-height: 1.6; text-align: center;}
+#online h3{font-size: 26px; line-height: 1.6; text-align: center; margin: 0 0 22px;}
+#online h4{font-size: 24px; line-height: 1.4; text-align: center; background: #0068b7; color: #fff; width: 560px; margin: 0 auto; padding: 8px 0;}
+
+.online-desc{text-align: center; padding: 40px 0 50px;}
+
+.online-flow{border-top: 3px solid #7fb3db; border-bottom: 3px solid #7fb3db; padding: 25px 0; margin: 0 0 40px;}
+
+.online-intro{text-align: center; margin: 0 0 100px;}
+.online-intro h4{margin-bottom: 30px !important;}
+.online-intro .tit{font-size: 25px; font-weight: bold; color: #149fa1; line-height: 1.6; margin: 0 0 20px;}
+.online-intro .txt1{font-size: 2rem; color: #0068b7; text-decoration: underline; margin: 0 0 70px; font-weight: bold;}
+.online-intro .txt2{font-size: 30px; font-weight: bold; line-height: 1.8; color: #149fa1; text-decoration: underline;}
+.online-intro .txt2:after{content: '';  width: 0; height: 0; border-left: 35px solid transparent; border-right: 35px solid transparent; border-top: 35px solid #848484; margin: 20px auto; display: block;}
+.online-intro .txt3{font-size: 28px; line-height: 1.6; color: #149fa1; border: 2px solid #149fa1; max-width: 840px; margin: 0 auto; padding: 12px 0;}
+.online-intro .img{margin: 0 0 10px; display: flex; justify-content: center;}
+
+.online-service .list{padding: 50px 0 60px 50px; margin: 0 auto; width: 650px;}
+.online-service .list li{margin: 0 0 25px;}
+.online-service .tit{font-size: 18px; color: #0068b7; font-weight: bold;}
+
+.online-use .inner{padding: 70px 0 30px; display: flex; justify-content: flex-end; flex-wrap: wrap;}
+.online-use .item{max-width: 980px; width: 100%; margin: 0 0 70px; display: flex; justify-content: space-between; flex-wrap: wrap;}
+.online-use .img{width: 27.3%;}
+.online-use .cont{width: 68.9%;}
+.online-use .tit{font-size: 22px; color: #0068b7; line-height: 1.6; margin: 0 0 15px; font-weight: bold; font-family: "Roboto Slab" , Garamond , "Times New Roman" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;}
+.online-use .btn-site{font-size: 14px; line-height: 1; width: 210px; border: 1px solid #dcdcdc; padding: 10px 0; text-align: center; position: relative; display: block; margin: 25px 0 0 0; text-decoration: none; color: #000;}
+.online-use .btn-site:hover{background: #dcdcdc;}
+.online-use .btn-site:after{content: ''; position: absolute; top: 50%; right: 5px; width: 0; height: 0; border-top: 3px solid transparent; border-left: 5px solid #03763b; border-bottom: 3px solid transparent; margin-top: -3px;}
+
+.online-btn{width: 100%; max-width: 700px; margin: 0 auto 150px;}
+.online-btn a{font-size: 24px; line-height: 1.4; text-align: center; padding: 20px 0; display: block; text-decoration: none;}
+
+.online-btn .btn-app{background: #0068b7; color: #fff;}
+.online-btn .btn-app:hover{background: #043a7a;}
+
+.online-btn .btn-login{border: 1px solid #000;}
+.online-btn .btn-login:hover{background: #000; color: #fff;}
+
+.online-close{font-size: 18px; line-height: 1; width: 235px; margin: 0 auto; padding: 17px 0; border-radius: 54px; border: 2px solid #000; text-align: center; display: block;}
+.online-close:hover{background: #000; color: #fff;}
+
+@media only screen and (max-width: 768px) {
+    .mv h1{font-size: 6vw;}
+    
+    #online{font-size: 14px; padding: 60px 0 80px;}
+    #online h2{font-size: 22px; margin: 0 -15px;}
+    #online h3{font-size: 22px;}
+    #online h4{width: 100%; font-size: 20px;}
+    
+    .online-desc{text-align: left;}
+    
+    .scroll-sp{overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 20px;}
+    .scroll-sp .img{width: 768px;}
+    
+    .online-intro{margin: 0 0 80px;}
+    .online-intro .tit{font-size: 20px; margin: 0 -15px 20px;}
+    .online-intro .txt1{font-size: 16px;}
+    .online-intro .txt2{font-size: 22px;}
+    .online-intro .txt2:after{border-left: 25px solid transparent; border-right: 25px solid transparent; border-top: 25px solid #848484;}
+    .online-intro .txt3{font-size: 22px;}
+    .online-intro .img{flex-wrap: wrap; max-width: 524px; width: 100%; margin: 0 auto 10px;}
+    .online-intro .img li{width: 50%;}
+    
+    .online-service .list{width: 100%; padding: 30px 0 50px;}
+    
+    .online-use .inner{padding: 40px 0 0 0;}
+    .online-use .item{margin: 0 0 50px;}
+    .online-use .img{width: 100%; max-width: 480px; margin: 0 auto 20px;}
+    .online-use .img img{width: 100%;}
+    .online-use .cont{width: 100%;}
+    .online-use .tit{font-size: 18px; margin: 0 0 10px;}
+    
+    .online-btn{margin: 0 auto 80px;}
+    .online-btn a{font-size: 20px; padding: 15px 0;}
+}
